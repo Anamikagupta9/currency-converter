@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4b959f; /* Light blue background color */
+}
+
+.converter-box {
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffff; /* White background for the container */
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00796b; /* Darker teal color for the heading */
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+.currency-input {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between flag and select dropdown */
+}
+
+input, select {
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #00796b; /* Border color matching the heading */
+    border-radius: 4px;
+    width: 100%; /* Full width for input */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #00796b; /* Background color for the button */
+    color: #ffffff; /* White text color for the button */
+    border: none;
+    border-radius: 4px;
+    width: 100%; /* Full width for the button */
+}
+
+.flag-img {
+    width: 32px; /* Smaller width of flag images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.exchange-icon {
+    font-size: 24px; /* Size of the icon */
+    color: #00796b; /* Color of the icon */
+    margin: 20px 0; /* Space above and below the icon */
+}
+
+.exchange-rate {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #000000; /* Color matching other elements */
+}

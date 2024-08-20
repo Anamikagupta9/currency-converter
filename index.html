@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="converter-box">
+        <h1>Currency Converter</h1>
+        
+        <div class="input-group">
+            <label for="amount">Enter Amount:</label><br>
+            <input type="number" id="amount" placeholder="Enter amount here">
+        </div>
+
+        <div class="input-group">
+            <label for="from-currency">From:</label><br>
+            <div class="currency-input">
+                <select id="from-currency">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+                <img src="" alt="Flag" class="flag-img">
+            </div>
+        </div>
+
+        <!-- Icon in between -->
+        <div class="exchange-icon">
+            <i class="fas fa-exchange-alt"></i>
+        </div>
+
+        <div class="input-group">
+            <label for="to-currency">To:</label><br>
+            <div class="currency-input">
+                <select id="to-currency">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+                <img src="" alt="Flag" class="flag-img">
+            </div>
+        </div>
+
+        <!-- Default exchange rate display -->
+        <div class="exchange-rate">
+            <p>1 USD = 83.97 INR</p>
+        </div>
+        
+        <div class="input-group">
+            <button>Convert</button>
+        </div>
+    </div>
+    <script src="currencies.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
